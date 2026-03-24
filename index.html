@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Smart Picks</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header>
+<h1>Smart Picks</h1>
+<p>Best Amazon Finds 🔥</p>
+</header>
+
+<div id="categories" class="categories"></div>
+<div id="products" class="container"></div>
+
+<div id="adminPanel" class="admin" style="display:none;">
+<h3>Admin Panel</h3>
+<input id="name" placeholder="Product name">
+<input id="category" placeholder="Category">
+<input type="file" id="imageFile">
+<input id="desc" placeholder="Description">
+<input id="link" placeholder="Amazon link">
+<button onclick="addProduct()">Save</button>
+<button onclick="logout()">Logout</button>
+</div>
+
+<footer>© 2026 Smart Picks</footer>
+
+<script src="script.js"></script>
+</body>
+</html>
